@@ -3,6 +3,11 @@
 # compiled output
 /dist
 /tmp
+/ngfactory
+
+*.metadata.json
+system-config.js
+
 
 # dependencies
 /node_modules
@@ -35,7 +40,6 @@ Thumbs.db
 app/**/*.js
 !app/assets/*.js
 api/**/*.js
-
 
 
 #dist

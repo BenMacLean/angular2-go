@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { CharacterService } from './character.service';
 
 @Component({
+  moduleId: module.id,
   selector: 'my-app',
   template: `
     <a [routerLink]="['/dashboard']">Dashboard</a>
