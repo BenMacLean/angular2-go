@@ -65,7 +65,10 @@ declare var System: any;
 
 // Most environments should use UMD; some (Karma) need the individual index
 // files
-var setPackageConfig = System.packageWithIndex ? packIndex : packUmd;
+var setPackageConfig = packIndex;
+
+// AOT DOESNT LIKE THIS NEXT LINE!!!
+// var setPackageConfig = System.packageWithIndex ? packIndex : packUmd;
 
 // Add package entries for angular packages
 ngPackageNames.forEach(setPackageConfig);
