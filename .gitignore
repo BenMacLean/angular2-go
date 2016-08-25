@@ -3,7 +3,7 @@
 # compiled output
 /dist
 /tmp
-/ngfactory
+ngfactory
 
 *.metadata.json
 system-config.js
